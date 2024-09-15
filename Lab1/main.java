@@ -169,6 +169,7 @@ class StudentFilters {
     }
 
     public List<List<Student>> getStudentsByFacultyAndCourse() {
+        // находим количество факультетов и курсов
         List<String> faculties = new ArrayList<>();
         List<Integer> courses = new ArrayList<>();
 
@@ -188,6 +189,7 @@ class StudentFilters {
         for (int i = 1; i <= fuculties_count; i++) { 
             for (int j = 1; j <= courses_count; j++) {
                 List<Student> facultyCourseList = new ArrayList<>();
+                // находим студентов, которые относятся к текущему курсу(итерации цикла) и факультету(итерации цикла)
                 for (Student student : students) {
                     if (student.getFaculty().equals("Faculty" + i) && student.getCourse() == j) {
                         facultyCourseList.add(student);
