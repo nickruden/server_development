@@ -55,7 +55,7 @@ public class Lab3ReentrantLock {
                 }
             }
 
-            writer.write("CPU: " + System.getProperty("os.arch") + "\n");
+            writer.write("\nCPU: " + System.getProperty("os.arch") + "\n");
             writer.write("RAM: " + Runtime.getRuntime().totalMemory() / (1024 * 1024) + " MB\n");
             writer.write("OC: " + System.getProperty("os.name") + " " + System.getProperty("os.version") + "\n");
 
