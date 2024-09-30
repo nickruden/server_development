@@ -23,7 +23,7 @@ public class TaxiPark {
     public void sortByFuelConsumption() {
         int n = cars.size();
         for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - i - 1; j++) {
+            for (int j = 0; j < n - 1; j++) {
                 if (cars.get(j).getFuelConsumption() > cars.get(j + 1).getFuelConsumption()) {
                     Car temp = cars.get(j);
                     cars.set(j, cars.get(j + 1));

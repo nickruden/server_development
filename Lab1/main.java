@@ -151,7 +151,7 @@ class StudentFilters {
     private final List<Student> students;
 
     public StudentFilters() {
-        this.students = new ArrayList<>();
+        this.students = new ArrayList<>(); // динамический массив
     }
 
     public void addStudent(Student student) {

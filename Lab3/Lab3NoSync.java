@@ -47,7 +47,6 @@ public class Lab3NoSync {
     static class IncrementTask implements Runnable {
         @Override
         public void run() {
-
             for (int i = 0; i < ITERATIONS; i++) {
                 int localCounter = counter;
                 localCounter++;
