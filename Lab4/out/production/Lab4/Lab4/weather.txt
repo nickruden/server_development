@@ -1,0 +1,4 @@
+Weather today: clear, +17C, no precipitation.
+Weather today: rain, +30C.
+Weather today: clear, +25C, no precipitation.
+Weather today: fog, +21C, rain.
