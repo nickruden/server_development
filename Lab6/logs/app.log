@@ -1,0 +1,112 @@
+2024-12-20 08:35:41 [[32mINFO[39m] Server is running on http://localhost:3000
+2024-12-20 08:36:01 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:36:01 [[32mINFO[39m] User visited the home page
+2024-12-20 08:36:05 [[36mHTTP[39m] HTTP Request: GET /about
+2024-12-20 08:36:05 [[32mINFO[39m] User visited the about page
+2024-12-20 08:36:07 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:36:07 [[32mINFO[39m] User visited the home page
+2024-12-20 08:37:22 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 08:37:22 [[32mINFO[39m] User accessed the form page
+2024-12-20 08:37:26 [[36mHTTP[39m] HTTP Request: POST /form
+2024-12-20 08:37:26 [[32mINFO[39m] Form submitted with name: Никита
+2024-12-20 08:37:44 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:37:44 [[32mINFO[39m] User visited the home page
+2024-12-20 08:37:46 [[36mHTTP[39m] HTTP Request: GET /about
+2024-12-20 08:37:46 [[32mINFO[39m] User visited the about page
+2024-12-20 08:37:47 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:37:47 [[32mINFO[39m] User visited the home page
+2024-12-20 08:50:15 [[36mHTTP[39m] HTTP Request: GET /forn
+2024-12-20 08:50:20 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 08:50:20 [[32mINFO[39m] User accessed the form page
+2024-12-20 08:50:23 [[36mHTTP[39m] HTTP Request: POST /form
+2024-12-20 08:50:23 [[33mWARN[39m] Admin access detected in form submission
+2024-12-20 08:50:23 [[32mINFO[39m] Form submitted with name: admin
+2024-12-20 08:50:44 [[36mHTTP[39m] HTTP Request: GET /form%601
+2024-12-20 08:50:46 [[36mHTTP[39m] HTTP Request: GET /form%601
+2024-12-20 08:52:38 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:52:38 [[32mINFO[39m] User visited the home page
+2024-12-20 08:52:49 [[32mINFO[39m] Server is running on http://localhost:3000
+2024-12-20 08:52:52 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:52:52 [[32mINFO[39m] User visited the home page
+2024-12-20 08:52:55 [[36mHTTP[39m] HTTP Request: GET /warn
+2024-12-20 08:52:55 [[33mWARN[39m] User triggered a warning log
+2024-12-20 08:52:56 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:52:56 [[32mINFO[39m] User visited the home page
+2024-12-20 08:52:57 [[36mHTTP[39m] HTTP Request: GET /error
+2024-12-20 08:52:57 [[31mERROR[39m] Error occurred: Simulated error occurred
+2024-12-20 08:52:59 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:52:59 [[32mINFO[39m] User visited the home page
+2024-12-20 08:53:01 [[36mHTTP[39m] HTTP Request: GET /debug
+2024-12-20 08:53:01 [[34mDEBUG[39m] Debug route accessed. This is a detailed debug log.
+2024-12-20 08:53:02 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:53:02 [[32mINFO[39m] User visited the home page
+2024-12-20 08:53:03 [[36mHTTP[39m] HTTP Request: GET /about
+2024-12-20 08:53:03 [[32mINFO[39m] User visited the about page
+2024-12-20 08:53:03 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:53:03 [[32mINFO[39m] User visited the home page
+2024-12-20 08:53:04 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 08:53:04 [[32mINFO[39m] User accessed the form page
+2024-12-20 08:53:09 [[36mHTTP[39m] HTTP Request: POST /form
+2024-12-20 08:53:09 [[32mINFO[39m] Form submitted with name: Никита
+2024-12-20 08:53:10 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:53:10 [[32mINFO[39m] User visited the home page
+2024-12-20 08:55:39 [[32mINFO[39m] Server is running on http://localhost:3000
+2024-12-20 08:55:42 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 08:55:42 [[32mINFO[39m] User visited the home page
+2024-12-20 08:55:42 [[36mHTTP[39m] HTTP Request: GET /favicon.ico
+2024-12-20 08:55:45 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 08:55:45 [[32mINFO[39m] User accessed the form page
+2024-12-20 09:02:11 [[32mINFO[39m] Server is running on http://localhost:3000
+2024-12-20 09:02:13 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 09:02:13 [[32mINFO[39m] User accessed the form page
+2024-12-20 09:02:14 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 09:02:14 [[32mINFO[39m] User accessed the form page
+2024-12-20 09:02:27 [[36mHTTP[39m] HTTP Request: POST /form
+2024-12-20 09:02:27 [[32mINFO[39m] Form submitted with name: 1
+2024-12-20 09:02:32 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 09:02:32 [[32mINFO[39m] User visited the home page
+2024-12-20 09:02:34 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 09:02:34 [[32mINFO[39m] User accessed the form page
+2024-12-20 09:02:50 [[32mINFO[39m] Server is running on http://localhost:3000
+2024-12-20 09:02:52 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 09:02:52 [[32mINFO[39m] User accessed the form page
+2024-12-20 09:02:54 [[36mHTTP[39m] HTTP Request: POST /form
+2024-12-20 09:02:54 [[31mERROR[39m] User did not enter a name
+2024-12-20 09:03:00 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 09:03:00 [[32mINFO[39m] User accessed the form page
+2024-12-20 09:06:31 [[32mINFO[39m] Server is running on http://localhost:3000
+2024-12-20 09:06:33 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 09:06:33 [[32mINFO[39m] User accessed the form page
+2024-12-20 09:07:01 [[32mINFO[39m] Server is running on http://localhost:3000
+2024-12-20 09:07:02 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 09:07:02 [[32mINFO[39m] User accessed the form page
+2024-12-20 09:07:03 [[36mHTTP[39m] HTTP Request: POST /form
+2024-12-20 09:07:04 [[31mERROR[39m] User did not enter a name
+2024-12-20 13:28:04 [[32mINFO[39m] Server is running on http://localhost:4000
+2024-12-20 13:28:12 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 13:28:12 [[32mINFO[39m] User visited the home page
+2024-12-20 13:28:13 [[36mHTTP[39m] HTTP Request: GET /favicon.ico
+2024-12-20 14:31:56 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 14:31:56 [[32mINFO[39m] User visited the home page
+2024-12-20 14:32:35 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 14:32:35 [[32mINFO[39m] User visited the home page
+2024-12-20 14:32:39 [[36mHTTP[39m] HTTP Request: GET /about
+2024-12-20 14:32:39 [[32mINFO[39m] User visited the about page
+2024-12-20 14:32:57 [[36mHTTP[39m] HTTP Request: GET /warn
+2024-12-20 14:32:57 [[33mWARN[39m] User triggered a warning log
+2024-12-20 14:33:29 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 14:33:29 [[32mINFO[39m] User accessed the form page
+2024-12-20 14:33:35 [[36mHTTP[39m] HTTP Request: POST /form
+2024-12-20 14:33:35 [[31mERROR[39m] User did not enter a name
+2024-12-20 14:33:44 [[36mHTTP[39m] HTTP Request: GET /form
+2024-12-20 14:33:44 [[32mINFO[39m] User accessed the form page
+2024-12-20 14:33:49 [[36mHTTP[39m] HTTP Request: POST /form
+2024-12-20 14:33:49 [[32mINFO[39m] Form submitted with name: Никита
+2024-12-20 14:33:55 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 14:33:55 [[32mINFO[39m] User visited the home page
+2024-12-20 14:33:57 [[36mHTTP[39m] HTTP Request: GET /error
+2024-12-20 14:33:57 [[31mERROR[39m] Error occurred: Simulated error occurred
+2024-12-20 14:34:02 [[36mHTTP[39m] HTTP Request: GET /
+2024-12-20 14:34:02 [[32mINFO[39m] User visited the home page
+2024-12-20 14:34:04 [[36mHTTP[39m] HTTP Request: GET /debug
+2024-12-20 14:34:04 [[34mDEBUG[39m] Debug route accessed. This is a detailed debug log.
