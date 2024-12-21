@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  node_app:
+    container_name: node_app
+    build: .
+    image: francescoxx/node_app
+    ports:
+      - "3000:3000"
+    environment:
+      - MYSQL_DB=mydb
+      - MYSQL_USER=nikita
+      - MYSQL_PASSWORD=1111
+      - MYSQL_HOST=node_db
+    restart: always
+    depends_on:
+      - node_db
+    command: ["/wait-for-it.sh", "node_db:3306", "-t", "60", "--", "node", "index.js"]
+    volumes:
+      - ./logs:/app/logs
+  
+  node_db:
+    container_name: node_db
+    image: mysql:8
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_DATABASE=mydb
+      - MYSQL_USER=nikita
+      - MYSQL_PASSWORD=1111
+      - MYSQL_ROOT_PASSWORD=5555
+    volumes:
+      - node_db_data:/var/lib/mysql
+
+volumes:
+  node_db_data: {}

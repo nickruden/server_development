@@ -1,0 +1,10 @@
+2024-12-20T11:37:22.255Z [INFO]: Executing (default): SELECT 1+1 AS result
+2024-12-20T11:37:22.262Z [INFO]: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'mydb'
+2024-12-20T11:37:22.263Z [INFO]: Database connected successfully
+2024-12-20T11:37:22.275Z [INFO]: Executing (default): SHOW INDEX FROM `users`
+2024-12-20T11:37:22.286Z [INFO]: Database connected successfully
+2024-12-20T11:37:22.293Z [INFO]: Server started on port 3000
+2024-12-20T11:37:33.613Z [INFO]: Incoming request: GET /users
+2024-12-20T11:37:33.633Z [INFO]: Executing (default): SELECT `id`, `name`, `email`, `createdAt`, `updatedAt` FROM `users` AS `user`;
+2024-12-20T11:37:39.696Z [INFO]: Incoming request: POST /users
+2024-12-20T11:37:39.697Z [ERROR]: Error adding user: Fields "name" and "email" are required
